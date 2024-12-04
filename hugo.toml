@@ -1,0 +1,22 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "Learn Documentation"
+theme = "relearn"
+defaultContentLanguage = "en"
+
+# Navigation settings
+[params]
+  author = "Your Name"
+  showEditButton = true
+  editURL = "https://github.com/your-repo/docs/edit/main/"
+  dateFormat = "Jan 2, 2006"
+
+# Sidebar settings
+[params.sidebar]
+  search = true
+  expand = true
+
+# Footer settings
+[params.footer]
+  content = "Powered by Hugo and the Learn theme."
+
